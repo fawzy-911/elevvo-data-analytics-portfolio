@@ -80,7 +80,7 @@ Pandas builds monthly customer cohorts, calculates follow-up retention, pivots t
 
 The Power BI report connects to the SQL Server database and imports the nine source tables. It also imports the cohort and bonus-analysis CSV exports created by Python. This preserves access to the source entities while using the Pandas cohort table for the retention visual.
 
-The model is organized around the business grains: orders, order items, payments, and reviews are not treated as interchangeable rows. Customer and date dimensions support analysis by persistent customer identity and purchase period. The SQL join output is used as a validated order-level analysis/extract; the raw one-to-many tables remain separate in the database/model to avoid fan-out when aggregating.
+The model is organized around the business grains: orders, order items, payments, and reviews are not treated as interchangeable rows. Customer and date dimensions support analysis by persistent customer identity and purchase period. The SQL join output is used as a validated order-level analysis/extract; the raw one-to-many tables remain separate in the database/model to avoid fan-out when aggregating. The first diagram shows source-table relationships; the second shows how the SQL export and Python outputs feed the report.
 
 ```mermaid
 erDiagram
@@ -90,11 +90,16 @@ erDiagram
     ORDERS ||--o{ ORDER_REVIEWS : reviewed_by
     PRODUCTS ||--o{ ORDER_ITEMS : identifies
     SELLERS ||--o{ ORDER_ITEMS : fulfills
-    CUSTOMERS ||--o{ CUSTOMER_ORDER_ANALYSIS : summarized_in
-    ORDERS ||--|| CUSTOMER_ORDER_ANALYSIS : one_row_per_order
-    COHORT_RETENTION : imported_from_pandas
-    STATE_DELIVERY_REVIEW : imported_from_pandas
-    POWER_USERS : imported_from_pandas
+```
+
+```mermaid
+flowchart LR
+    Olist["Nine Kaggle CSV tables"] --> SQL["SQL Server: nine source tables"]
+    SQL --> Export["SQL join export: one row per order"]
+    Export --> Python["Python / Pandas analysis"]
+    SQL --> PowerBI["Power BI report"]
+    Python --> Outputs["Cohort and bonus CSV outputs"]
+    Outputs --> PowerBI
 ```
 
 `geolocation` and `product_category_name_translation` are supporting lookup/source tables. The translation table provides English category labels. Geolocation is included in the source/database but not required for the state-level visuals shown here.
