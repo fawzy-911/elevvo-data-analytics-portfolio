@@ -59,7 +59,11 @@ These are screenshots and charts exported from the project files—not mockups. 
   <a href="./assets/portfolio/campaign-conversion-confidence-intervals.png"><img src="./assets/portfolio/campaign-conversion-confidence-intervals.png" alt="Task 10: ad and PSA conversion rates with 95% confidence intervals" width="48%" /></a>
 </p>
 
-<p align="center"><sub>Task 7 · Monthly sales and moving averages &nbsp; | &nbsp; Task 10 · Conversion rates and 95% confidence intervals</sub></p>`r`n`r`n## The ten projects
+<p align="center"><sub>Task 7 · Monthly sales and moving averages &nbsp; | &nbsp; Task 10 · Conversion rates and 95% confidence intervals</sub></p>
+
+## Projects by task level
+
+### Level 1 — Tasks 1–2
 
 ### 01 · Sales Performance Dashboard — Excel
 
@@ -68,6 +72,8 @@ These are screenshots and charts exported from the project files—not mockups. 
 ### 02 · Titanic Exploratory Data Analysis — Python
 
 **Brief:** inspect and clean the labelled passenger data, then compare survival patterns. **Work:** documented missing-value handling and charted survival by sex, ticket class, age and family group; this is descriptive analysis, not a prediction model. **Evidence:** overall survival was 38.4%; in this sample it was 74.2% for women and 18.9% for men, and decreased from 63.0% in first class to 24.2% in third class. [Open Task 2](./Task%202%20Exploratory%20Data%20Analysis%20on%20Titanic%20Dataset/)
+
+### Level 2 — Tasks 3–5
 
 ### 03 · Customer Segmentation — RFM
 
@@ -81,6 +87,8 @@ These are screenshots and charts exported from the project files—not mockups. 
 
 **Brief:** answer product, regional revenue and monthly performance questions from a relational database. **Work:** wrote joins and aggregations, derived continent-level regions from billing country, and used `LAG()` for month-over-month changes. **Evidence:** 2,240 units and $2,328.60 revenue; Europe contributed $1,114.36. Product sales were tied at two units for many tracks, so the query uses documented tie-breakers instead of implying a clear runaway bestseller. [Open Task 5](./Task%205%20SQL-Based%20Analysis%20of%20Product%20Sales/)
 
+### Level 3 — Tasks 6–8
+
 ### 06 · Job Posting Collection and Analysis — Python
 
 **Brief:** collect public job listings and summarize roles, locations and skill mentions. **Work:** used `requests` and BeautifulSoup on an HTML listing page, checked `robots.txt`, deduplicated links and inspected a small sample of full descriptions. **Evidence:** a snapshot of 64 unique listings, with 15 descriptions analyzed; Engineering & IT was the largest grouped role family (24 listings). This is a dated sample from a remote-job board, not a census of the job market. [Open Task 6](./Task%206%20Web%20Scraping%20and%20Analysis%20of%20Job%20Postings/)
@@ -92,6 +100,8 @@ These are screenshots and charts exported from the project files—not mockups. 
 ### 08 · Retail Insights Dashboard — Power BI
 
 **Brief:** model related sales tables and build an interactive report. **Work:** connected six sheets, separated sales from returns at the order-line grain, and built three report pages for executive, product/store, and customer/returns views. **Evidence:** the selected report view shows $2.79M sales, $844.66K profit and a 30.27% profit margin; In-Store represented 60.08% of sales. [Open Task 8](./Task%208%20Power%20BI%20Dashboard%20for%20Retail%20Insights/)
+
+### Industry Level — Tasks 9–10
 
 ### 09 · E-commerce Business Insights — SQL Server, Python and Power BI
 
@@ -112,7 +122,9 @@ These are screenshots and charts exported from the project files—not mockups. 
 
 The biggest value for me was learning to carry a question all the way through—not stopping when the code runs or the chart looks finished. Across ten different briefs, I practiced choosing the right tool for the job, checking whether a metric matches its label, and explaining what the data can and cannot support.
 
-I am more comfortable now moving between Excel, SQL, Python and Power BI, and I have better habits around data grain, assumptions, validation and communicating results. Just as valuable, I finished with work I can open, explain and discuss—not only a list of tools I have used.`r`n`r`n## Tools used
+I am more comfortable now moving between Excel, SQL, Python and Power BI, and I have better habits around data grain, assumptions, validation and communicating results. Just as valuable, I finished with work I can open, explain and discuss—not only a list of tools I have used.
+
+## Tools used
 
 **Excel** · **SQLite** · **SQL Server** · **Python** (`pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `SciPy`, `statsmodels`, `requests`, `BeautifulSoup`) · **Power BI** · **DAX**
 
@@ -124,8 +136,10 @@ The work was completed as part of the [Elevvo Data Analytics Internship](https:/
 
 
 ## Thank you
-`r`n
+
+
 My sincere thanks to Elevvo Pathways management and the team behind the Data Analytics Internship for organizing the program, preparing practical briefs and learning resources, and giving me the space to work through them at my own pace. The range of tasks helped me connect analysis techniques to real questions and build confidence in presenting my reasoning. I appreciate the opportunity and the work the team put into making it available.
+
 ---
 
 <p align="center"><sub>Mohamed Fawzy · Data Analytics Portfolio · Updated November 2026</sub></p>
