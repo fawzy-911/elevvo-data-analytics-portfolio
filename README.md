@@ -8,7 +8,7 @@
 
 <p align="center">
   <strong>Mohamed Fawzy</strong><br />
-  Ten project briefs · Excel · SQL · Python · Power BI · Statistical analysis
+  10 project briefs · Excel · SQL · Python · Power BI · Statistical analysis
 </p>
 
 <p align="center">
