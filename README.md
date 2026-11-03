@@ -16,24 +16,50 @@
   <a href="https://github.com/fawzy-911">GitHub profile</a>
 </p>
 
-<p align="center">
-  <a href="./Task%208%20Power%20BI%20Dashboard%20for%20Retail%20Insights/">
-    <img src="./Task%208%20Power%20BI%20Dashboard%20for%20Retail%20Insights/Executive%20Overview.png" alt="Superstore Power BI executive overview" width="48%" />
-  </a>
-  <a href="./Task%209%20Business%20Insights%20and%20Executive%20Report%20for%20E-Commerce%20Dataset/">
-    <img src="./Task%209%20Business%20Insights%20and%20Executive%20Report%20for%20E-Commerce%20Dataset/assets/dashboard/01-executive-overview.png" alt="Olist e-commerce Power BI executive overview" width="48%" />
-  </a>
-</p>
-
-<p align="center"><sub>Two report snapshots. The project folders contain the notebooks, workbooks, SQL, documentation and remaining report pages.</sub></p>
-
 ## What this portfolio is
 
 This repository documents ten tasks I completed during the Elevvo Data Analytics Internship. The work moves from spreadsheet reporting and exploratory analysis to relational SQL, web data collection, time series, Power BI and a controlled A/B test.
 
 I try to keep one rule in view throughout: **define the row, the measure and the comparison before interpreting the chart.** That meant checking sales lines against distinct orders, aggregating one-to-many tables before joining, preserving survey blanks that came from conditional questions, and separating statistical significance from campaign profitability.
 
-## The ten projects
+## Selected visual work
+
+These are screenshots and charts exported from the project files—not mockups. Open any image to view it at full size.
+
+### Task 8 · Power BI retail report
+
+<p align="center">
+  <a href="./Task%208%20Power%20BI%20Dashboard%20for%20Retail%20Insights/Executive%20Overview.png"><img src="./Task%208%20Power%20BI%20Dashboard%20for%20Retail%20Insights/Executive%20Overview.png" alt="Task 8: Executive Overview" width="32%" /></a>
+  <a href="./Task%208%20Power%20BI%20Dashboard%20for%20Retail%20Insights/Product%20%26%20Store%20Performance.png"><img src="./Task%208%20Power%20BI%20Dashboard%20for%20Retail%20Insights/Product%20%26%20Store%20Performance.png" alt="Task 8: Product and Store Performance" width="32%" /></a>
+  <a href="./Task%208%20Power%20BI%20Dashboard%20for%20Retail%20Insights/Customer%20%26%20Returns%20Analysis.png"><img src="./Task%208%20Power%20BI%20Dashboard%20for%20Retail%20Insights/Customer%20%26%20Returns%20Analysis.png" alt="Task 8: Customer and Returns Analysis" width="32%" /></a>
+</p>
+
+<p align="center"><sub>Executive Overview · Product &amp; Store Performance · Customer &amp; Returns Analysis</sub></p>
+
+### Task 9 · Olist e-commerce report
+
+<p align="center">
+  <a href="./Task%209%20Business%20Insights%20and%20Executive%20Report%20for%20E-Commerce%20Dataset/assets/dashboard/01-executive-overview.png"><img src="./Task%209%20Business%20Insights%20and%20Executive%20Report%20for%20E-Commerce%20Dataset/assets/dashboard/01-executive-overview.png" alt="Task 9: Executive Overview" width="48%" /></a>
+  <a href="./Task%209%20Business%20Insights%20and%20Executive%20Report%20for%20E-Commerce%20Dataset/assets/dashboard/02-sales-product.png"><img src="./Task%209%20Business%20Insights%20and%20Executive%20Report%20for%20E-Commerce%20Dataset/assets/dashboard/02-sales-product.png" alt="Task 9: Sales and Product Performance" width="48%" /></a>
+</p>
+
+<p align="center"><sub>Executive Overview · Sales &amp; Product Performance</sub></p>
+
+<p align="center">
+  <a href="./Task%209%20Business%20Insights%20and%20Executive%20Report%20for%20E-Commerce%20Dataset/assets/dashboard/03-customer-cohorts.png"><img src="./Task%209%20Business%20Insights%20and%20Executive%20Report%20for%20E-Commerce%20Dataset/assets/dashboard/03-customer-cohorts.png" alt="Task 9: Customer Cohorts and Value" width="48%" /></a>
+  <a href="./Task%209%20Business%20Insights%20and%20Executive%20Report%20for%20E-Commerce%20Dataset/assets/dashboard/04-delivery-experience.png"><img src="./Task%209%20Business%20Insights%20and%20Executive%20Report%20for%20E-Commerce%20Dataset/assets/dashboard/04-delivery-experience.png" alt="Task 9: Delivery and Customer Experience" width="48%" /></a>
+</p>
+
+<p align="center"><sub>Customer Cohorts &amp; Value · Delivery &amp; Customer Experience</sub></p>
+
+### Two analysis charts
+
+<p align="center">
+  <a href="./assets/portfolio/walmart-monthly-sales-trend.png"><img src="./assets/portfolio/walmart-monthly-sales-trend.png" alt="Task 7: monthly Walmart sales with 3-month and 12-month moving averages" width="48%" /></a>
+  <a href="./assets/portfolio/campaign-conversion-confidence-intervals.png"><img src="./assets/portfolio/campaign-conversion-confidence-intervals.png" alt="Task 10: ad and PSA conversion rates with 95% confidence intervals" width="48%" /></a>
+</p>
+
+<p align="center"><sub>Task 7 · Monthly sales and moving averages &nbsp; | &nbsp; Task 10 · Conversion rates and 95% confidence intervals</sub></p>`r`n`r`n## The ten projects
 
 ### 01 · Sales Performance Dashboard — Excel
 
@@ -82,7 +108,11 @@ I try to keep one rule in view throughout: **define the row, the measure and the
 - **Keep cleaning explainable.** Preserve source files, record what changed, and avoid treating every blank as bad data.
 - **Show the evidence and its limits.** A dashboard, correlation or small p-value is useful only when its scope and assumptions are clear.
 
-## Tools used
+## What I gained from the internship
+
+The biggest value for me was learning to carry a question all the way through—not stopping when the code runs or the chart looks finished. Across ten different briefs, I practiced choosing the right tool for the job, checking whether a metric matches its label, and explaining what the data can and cannot support.
+
+I am more comfortable now moving between Excel, SQL, Python and Power BI, and I have better habits around data grain, assumptions, validation and communicating results. Just as valuable, I finished with work I can open, explain and discuss—not only a list of tools I have used.`r`n`r`n## Tools used
 
 **Excel** · **SQLite** · **SQL Server** · **Python** (`pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `SciPy`, `statsmodels`, `requests`, `BeautifulSoup`) · **Power BI** · **DAX**
 
@@ -92,6 +122,10 @@ Each task folder contains its own deliverables and project notes. Dataset source
 
 The work was completed as part of the [Elevvo Data Analytics Internship](https://www.linkedin.com/company/elevvopaths/). The Elevvo logo mark is from the [official website](https://elevvo.tech/). This is my personal learning portfolio; it is not an official Elevvo publication or a claim that these internship exercises were deployed as company systems.
 
+
+## Thank you
+`r`n
+My sincere thanks to Elevvo Pathways management and the team behind the Data Analytics Internship for organizing the program, preparing practical briefs and learning resources, and giving me the space to work through them at my own pace. The range of tasks helped me connect analysis techniques to real questions and build confidence in presenting my reasoning. I appreciate the opportunity and the work the team put into making it available.
 ---
 
 <p align="center"><sub>Mohamed Fawzy · Data Analytics Portfolio · Updated November 2026</sub></p>
